@@ -21,7 +21,7 @@ input=st.text_input("Input: ",key='input')
 
 response=get_openai_response(input)
 
-submit=st.button("Ask the question ")
+submit=st.button("Ask the Question ")
 
 if submit:
     st.subheader("The Response is")
